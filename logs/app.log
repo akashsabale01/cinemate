@@ -1,0 +1,205 @@
+17:33:20 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+17:33:20 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 28780 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate)
+17:33:20 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+17:33:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:33:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:33:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+17:33:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+17:33:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:33:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+17:33:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:33:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4963 ms
+17:33:29 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a682b12, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d24d682, org.springframework.security.web.context.SecurityContextHolderFilter@11c9ec76, org.springframework.security.web.header.HeaderWriterFilter@4fc6da02, org.springframework.security.web.authentication.logout.LogoutFilter@137d5b97, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@54626d30, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@429f28f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69a1aa6c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e02fc62, org.springframework.security.web.access.ExceptionTranslationFilter@37ccaff4, org.springframework.security.web.access.intercept.AuthorizationFilter@5ca42c29]
+17:33:30 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+17:33:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+17:33:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+17:33:30 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 11.103 seconds (process running for 12.421)
+17:34:07 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:34:07 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:34:07 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:34:07 [http-nio-9091-exec-1] INFO  c.m.c.controller.MovieController - Getting movie with id: 3111
+17:34:07 [http-nio-9091-exec-1] INFO  c.m.cinemate.service.MovieService - Fetching movie with id: 3111
+17:34:07 [http-nio-9091-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:34:08 [http-nio-9091-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4edff50d
+17:34:08 [http-nio-9091-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:34:08 [http-nio-9091-exec-1] ERROR c.m.cinemate.service.MovieService - Movie of given id not found
+17:34:08 [http-nio-9091-exec-1] ERROR c.m.c.exception.AllExeptionHandler - MovieException occurred: Movie of given id not found
+17:34:08 [http-nio-9091-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.movieapp.cinemate.exception.MovieException: Movie of given id not found]
+17:40:27 [http-nio-9091-exec-3] INFO  c.m.c.controller.MovieController - Getting movie with id: 3
+17:40:27 [http-nio-9091-exec-3] INFO  c.m.cinemate.service.MovieService - Fetching movie with id: 3
+17:40:27 [http-nio-9091-exec-3] INFO  c.m.cinemate.service.MovieService - Retrieved movie: Jigarthanda
+17:40:27 [http-nio-9091-exec-3] INFO  c.m.c.controller.MovieController - Retrieved movie: Jigarthanda
+21:08:10 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h25m2s225ms894µs900ns).
+10:10:51 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h2m50s24ms452µs300ns).
+10:53:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+10:53:56 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 34688 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate)
+10:53:56 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+10:53:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:53:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:53:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+10:53:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+10:53:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:53:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+10:53:58 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:53:58 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2236 ms
+10:54:00 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4858fa82, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28588fea, org.springframework.security.web.context.SecurityContextHolderFilter@72a2e78, org.springframework.security.web.header.HeaderWriterFilter@7d44c024, org.springframework.security.web.authentication.logout.LogoutFilter@52ab3333, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7f43e47f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1678fa7b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c97c10e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14f5de84, org.springframework.security.web.access.ExceptionTranslationFilter@211ddae4, org.springframework.security.web.access.intercept.AuthorizationFilter@3029a845]
+10:54:00 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:54:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+10:54:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+10:54:00 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 4.959 seconds (process running for 5.45)
+10:54:03 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:54:03 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:54:03 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:55:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+10:55:14 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 8676 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate)
+10:55:14 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+10:55:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:55:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:55:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+10:55:16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+10:55:16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:55:16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+10:55:16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:55:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2170 ms
+10:55:18 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@251beffe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b1900ff, org.springframework.security.web.context.SecurityContextHolderFilter@311b15c7, org.springframework.security.web.header.HeaderWriterFilter@4516ec1e, org.springframework.security.web.authentication.logout.LogoutFilter@427d7c9f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a348f05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57b1c5b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@648950b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@389cbe15, org.springframework.security.web.access.ExceptionTranslationFilter@7ab78004, org.springframework.security.web.access.intercept.AuthorizationFilter@6d3f51b5]
+10:55:18 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+10:55:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+10:55:18 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+10:55:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9091"]
+10:55:18 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:55:19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9091"]
+10:55:19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9091"]
+10:55:19 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+10:55:19 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+10:55:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+10:55:32 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 24968 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate)
+10:55:32 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+10:55:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:55:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:55:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+10:55:34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+10:55:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:55:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+10:55:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:55:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1820 ms
+10:55:36 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@b6e7a90, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ccb20b1, org.springframework.security.web.context.SecurityContextHolderFilter@7c999693, org.springframework.security.web.header.HeaderWriterFilter@53ec2bde, org.springframework.security.web.authentication.logout.LogoutFilter@394868dd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6d3f51b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3193de84, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6219cedc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1977c3bc, org.springframework.security.web.access.ExceptionTranslationFilter@4495f606, org.springframework.security.web.access.intercept.AuthorizationFilter@6702518e]
+10:55:36 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+10:55:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+10:55:36 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+10:55:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9091"]
+10:55:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:55:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9091"]
+10:55:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9091"]
+10:55:36 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+10:55:36 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+10:56:10 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:56:10 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9091"]
+10:56:10 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:56:10 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+10:56:10 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9091"]
+10:56:10 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9091"]
+10:56:10 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 34688 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate)
+10:56:10 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+10:56:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+10:56:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+10:56:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:56:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+10:56:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:56:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 650 ms
+10:56:11 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76fcbc60, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d9527f5, org.springframework.security.web.context.SecurityContextHolderFilter@4c4ca75f, org.springframework.security.web.header.HeaderWriterFilter@1b25985, org.springframework.security.web.authentication.logout.LogoutFilter@54292bd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@67ba0d50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27e7ca02, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f70a634, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1642510e, org.springframework.security.web.access.ExceptionTranslationFilter@28761f3d, org.springframework.security.web.access.intercept.AuthorizationFilter@2617ab72]
+10:56:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:56:11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+10:56:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+10:56:11 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 1.375 seconds (process running for 136.036)
+10:56:11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:56:16 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:56:16 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:56:16 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+10:57:10 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+10:57:10 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 10164 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate)
+10:57:10 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+10:57:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:57:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:57:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+10:57:11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+10:57:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:57:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+10:57:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:57:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1648 ms
+10:57:13 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@33f04e0f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b6e7a90, org.springframework.security.web.context.SecurityContextHolderFilter@3a2b2bec, org.springframework.security.web.header.HeaderWriterFilter@7987ee74, org.springframework.security.web.authentication.logout.LogoutFilter@aa512e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@35c1bcf5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e19f005, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5284f711, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ccb20b1, org.springframework.security.web.access.ExceptionTranslationFilter@6b8d20cb, org.springframework.security.web.access.intercept.AuthorizationFilter@2960a9d5]
+10:57:13 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:57:13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+10:57:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+10:57:13 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 3.928 seconds (process running for 4.414)
+10:57:18 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:57:18 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:57:18 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+10:58:09 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+10:58:09 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 27024 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate)
+10:58:09 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+10:58:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:58:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:58:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+10:58:11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+10:58:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:58:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+10:58:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:58:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1956 ms
+10:58:13 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@14f5de84, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71368477, org.springframework.security.web.context.SecurityContextHolderFilter@1678fa7b, org.springframework.security.web.header.HeaderWriterFilter@e5853a, org.springframework.security.web.authentication.logout.LogoutFilter@1fd16228, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7212f683, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c97c10e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45fbfa4f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e35fc39, org.springframework.security.web.access.ExceptionTranslationFilter@7d44c024, org.springframework.security.web.access.intercept.AuthorizationFilter@5de56b87]
+10:58:13 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:58:13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+10:58:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+10:58:13 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 4.375 seconds (process running for 4.914)
+10:58:16 [http-nio-9091-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:58:16 [http-nio-9091-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:58:16 [http-nio-9091-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+10:58:43 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:58:43 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9091"]
+10:58:43 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:58:43 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+10:58:43 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9091"]
+10:58:43 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9091"]
+10:58:43 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 27024 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Case Study Final\cinemate)
+10:58:43 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+10:58:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+10:58:44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+10:58:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:58:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+10:58:44 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:58:44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 422 ms
+10:58:44 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@50068969, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ad6e54e, org.springframework.security.web.context.SecurityContextHolderFilter@13daf8a3, org.springframework.security.web.header.HeaderWriterFilter@2cf93928, org.springframework.security.web.authentication.logout.LogoutFilter@5f03b26f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1254c186, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57caa622, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e0d08d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2924734b, org.springframework.security.web.access.ExceptionTranslationFilter@4ebcea56, org.springframework.security.web.access.intercept.AuthorizationFilter@4ba714d3]
+10:58:44 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:58:44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+10:58:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+10:58:44 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 1.171 seconds (process running for 36.38)
+10:58:44 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
