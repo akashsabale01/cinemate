@@ -639,3 +639,195 @@ Consider defining a bean of type 'org.springframework.security.crypto.password.P
 13:48:12 [http-nio-9000-exec-3] INFO  c.m.c.controller.UserController - User logged in successfully: Jerry33@yahoo.com
 13:48:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 13:48:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:50:13 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+15:50:13 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 26012 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+15:50:13 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+15:50:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:50:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+15:50:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+15:50:15 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+15:50:15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:50:15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+15:50:16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:50:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2494 ms
+15:50:17 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6249be57, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53c1dce1, org.springframework.security.web.context.SecurityContextHolderFilter@22225671, org.springframework.security.web.header.HeaderWriterFilter@1a4db7f, org.springframework.security.web.authentication.logout.LogoutFilter@13d1c3b8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@31800738, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@560118a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5739fffd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22865344, org.springframework.security.web.session.SessionManagementFilter@65b0c513, org.springframework.security.web.access.ExceptionTranslationFilter@30a52f07, org.springframework.security.web.access.intercept.AuthorizationFilter@5e5e17dd]
+15:50:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+15:50:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+15:50:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+15:50:18 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 5.315 seconds (process running for 9.927)
+15:50:25 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:50:25 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:50:25 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+15:50:25 [http-nio-9000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:50:26 [http-nio-9000-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4db83b10
+15:50:26 [http-nio-9000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:50:26 [http-nio-9000-exec-1] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+15:50:26 [http-nio-9000-exec-1] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+15:50:26 [http-nio-9000-exec-1] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+15:50:26 [http-nio-9000-exec-1] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+15:50:41 [http-nio-9000-exec-4] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+15:50:41 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+15:50:41 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+15:50:41 [http-nio-9000-exec-4] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+15:50:49 [http-nio-9000-exec-5] INFO  c.m.c.controller.UserController - Logging in user with email: Jerry33@yahoo.com
+15:50:49 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - Logging in user with email: Jerry33@yahoo.com
+15:50:49 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - Fetching user with email: Jerry33@yahoo.com
+15:50:49 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - Retrieved user: Jerry Roy
+15:50:49 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - User logged in successfully: Jerry33@yahoo.com
+15:50:49 [http-nio-9000-exec-5] INFO  c.m.c.controller.UserController - User logged in successfully: Jerry33@yahoo.com
+15:52:20 [http-nio-9000-exec-2] INFO  c.m.c.controller.UserController - Registering user with email: kang@gmail.com
+15:52:20 [http-nio-9000-exec-2] INFO  c.m.cinemate.service.UserService - Registering user with email: kang@gmail.com
+15:52:20 [http-nio-9000-exec-2] INFO  c.m.cinemate.service.UserService - User registered successfully: kang@gmail.com
+15:52:20 [http-nio-9000-exec-2] INFO  c.m.c.controller.UserController - User registered successfully: kang@gmail.com
+15:52:24 [http-nio-9000-exec-1] INFO  c.m.c.controller.UserController - Registering user with email: kang@gmail.com
+15:52:24 [http-nio-9000-exec-1] INFO  c.m.cinemate.service.UserService - Registering user with email: kang@gmail.com
+15:52:24 [http-nio-9000-exec-1] ERROR c.m.cinemate.service.UserService - Error while registering user: User of given email already present
+15:52:24 [http-nio-9000-exec-1] ERROR c.m.c.exception.AllExeptionHandler - UserException occurred: User of given email already present
+15:52:24 [http-nio-9000-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.movieapp.cinemate.exception.UserException: User of given email already present]
+15:52:57 [http-nio-9000-exec-4] INFO  c.m.c.controller.UserController - Logging in user with email: kang@gmail.com
+15:52:57 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.UserService - Logging in user with email: kang@gmail.com
+15:52:57 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.UserService - Fetching user with email: kang@gmail.com
+15:52:57 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.UserService - Retrieved user: Kang
+15:52:57 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.UserService - User logged in successfully: kang@gmail.com
+15:52:57 [http-nio-9000-exec-4] INFO  c.m.c.controller.UserController - User logged in successfully: kang@gmail.com
+15:53:02 [http-nio-9000-exec-5] INFO  c.m.c.controller.UserController - Logging in user with email: kang@gmail.com
+15:53:02 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - Logging in user with email: kang@gmail.com
+15:53:02 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - Fetching user with email: kang@gmail.com
+15:53:02 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - Retrieved user: Kang
+15:53:02 [http-nio-9000-exec-5] WARN  c.m.cinemate.service.UserService - Invalid credentials for user: kang@gmail.com
+15:53:02 [http-nio-9000-exec-5] WARN  c.m.c.controller.UserController - Invalid credentials for user: kang@gmail.com
+15:53:10 [http-nio-9000-exec-6] INFO  c.m.c.controller.UserController - Logging in user with email: kang@gmail.com
+15:53:10 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.UserService - Logging in user with email: kang@gmail.com
+15:53:10 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.UserService - Fetching user with email: kang@gmail.com
+15:53:10 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.UserService - Retrieved user: Kang
+15:53:10 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.UserService - User logged in successfully: kang@gmail.com
+15:53:10 [http-nio-9000-exec-6] INFO  c.m.c.controller.UserController - User logged in successfully: kang@gmail.com
+16:20:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:20:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:20:54 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+16:20:54 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 19028 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+16:20:54 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+16:20:54 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:20:54 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:20:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+16:20:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+16:20:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:20:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+16:20:58 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:20:58 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4051 ms
+16:21:01 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@252e9ea2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4752ba5b, org.springframework.security.web.context.SecurityContextHolderFilter@1b554668, org.springframework.security.web.header.HeaderWriterFilter@46ca20af, org.springframework.security.web.authentication.logout.LogoutFilter@2c2148a8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2b693ef2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69fa155a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c84daa5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7dce0d54, org.springframework.security.web.session.SessionManagementFilter@37a04592, org.springframework.security.web.access.ExceptionTranslationFilter@77069fa5, org.springframework.security.web.access.intercept.AuthorizationFilter@6618cb65]
+16:21:01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:21:01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+16:21:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+16:21:01 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 8.226 seconds (process running for 9.056)
+16:21:15 [http-nio-9000-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:21:15 [http-nio-9000-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:21:15 [http-nio-9000-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+16:21:15 [http-nio-9000-exec-3] INFO  c.m.c.controller.UserController - Logging in user with email: kang@gmail.com
+16:21:15 [http-nio-9000-exec-3] INFO  c.m.cinemate.service.UserService - Logging in user with email: kang@gmail.com
+16:21:15 [http-nio-9000-exec-3] INFO  c.m.cinemate.service.UserService - Fetching user with email: kang@gmail.com
+16:21:15 [http-nio-9000-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:21:16 [http-nio-9000-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ce0f77f
+16:21:16 [http-nio-9000-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:21:16 [http-nio-9000-exec-3] INFO  c.m.cinemate.service.UserService - Retrieved user: Kang
+16:21:16 [http-nio-9000-exec-3] INFO  c.m.cinemate.service.UserService - User logged in successfully: kang@gmail.com
+16:21:16 [http-nio-9000-exec-3] INFO  c.m.c.controller.UserController - User logged in successfully: kang@gmail.com
+16:21:22 [http-nio-9000-exec-4] INFO  c.m.c.controller.UserController - Logging in user with email: kang@gmail.com
+16:21:22 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.UserService - Logging in user with email: kang@gmail.com
+16:21:22 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.UserService - Fetching user with email: kang@gmail.com
+16:21:22 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.UserService - Retrieved user: Kang
+16:21:22 [http-nio-9000-exec-4] WARN  c.m.cinemate.service.UserService - Invalid credentials for user: kang@gmail.com
+16:21:22 [http-nio-9000-exec-4] WARN  c.m.c.controller.UserController - Invalid credentials for user: kang@gmail.com
+16:21:27 [http-nio-9000-exec-5] INFO  c.m.c.controller.UserController - Logging in user with email: kang@gmail.com
+16:21:27 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - Logging in user with email: kang@gmail.com
+16:21:27 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - Fetching user with email: kang@gmail.com
+16:21:27 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - Retrieved user: Kang
+16:21:27 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.UserService - User logged in successfully: kang@gmail.com
+16:21:27 [http-nio-9000-exec-5] INFO  c.m.c.controller.UserController - User logged in successfully: kang@gmail.com
+16:21:36 [http-nio-9000-exec-6] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+16:21:36 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+16:21:36 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+16:21:36 [http-nio-9000-exec-6] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+16:21:57 [http-nio-9000-exec-5] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserController
+16:21:58 [http-nio-9000-exec-5] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieController
+16:21:58 [http-nio-9000-exec-5] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserRatingsAndReviewController
+16:21:58 [http-nio-9000-exec-5] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieWishlistController
+16:21:59 [http-nio-9000-exec-5] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 2359 ms
+16:22:32 [http-nio-9000-exec-8] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+16:22:32 [http-nio-9000-exec-8] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+16:22:32 [http-nio-9000-exec-8] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+16:22:32 [http-nio-9000-exec-8] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+16:23:51 [http-nio-9000-exec-5] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:23:51 [http-nio-9000-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:23:54 [http-nio-9000-exec-7] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:23:54 [http-nio-9000-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:26:03 [http-nio-9000-exec-10] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Request method 'PATCH' is not supported
+16:26:03 [http-nio-9000-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' is not supported]
+16:26:31 [http-nio-9000-exec-1] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Request method 'PATCH' is not supported
+16:26:31 [http-nio-9000-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' is not supported]
+16:26:32 [http-nio-9000-exec-3] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Request method 'PATCH' is not supported
+16:26:32 [http-nio-9000-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' is not supported]
+16:26:35 [http-nio-9000-exec-4] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Request method 'PATCH' is not supported
+16:26:35 [http-nio-9000-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' is not supported]
+16:27:09 [http-nio-9000-exec-6] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Request method 'PATCH' is not supported
+16:27:09 [http-nio-9000-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' is not supported]
+16:27:10 [http-nio-9000-exec-5] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Request method 'PATCH' is not supported
+16:27:10 [http-nio-9000-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' is not supported]
+16:27:52 [http-nio-9000-exec-7] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:27:52 [http-nio-9000-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:29:06 [http-nio-9000-exec-9] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:29:06 [http-nio-9000-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:29:07 [http-nio-9000-exec-10] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:29:07 [http-nio-9000-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:29:08 [http-nio-9000-exec-1] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:29:08 [http-nio-9000-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:29:28 [http-nio-9000-exec-3] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:29:28 [http-nio-9000-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:29:37 [http-nio-9000-exec-4] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:29:37 [http-nio-9000-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:30:02 [http-nio-9000-exec-6] INFO  c.m.c.controller.MovieController - Updating release date of movie with id: 1
+16:30:02 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.MovieService - Updating release date of movie with id: 1
+16:30:02 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.MovieService - Updated release date of movie: Tiger 3
+16:30:02 [http-nio-9000-exec-6] INFO  c.m.c.controller.MovieController - Updated release date of movie: Tiger 3
+16:32:00 [http-nio-9000-exec-7] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:32:00 [http-nio-9000-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:32:12 [http-nio-9000-exec-2] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:32:12 [http-nio-9000-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:32:14 [http-nio-9000-exec-9] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:32:14 [http-nio-9000-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:32:14 [http-nio-9000-exec-10] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+16:32:14 [http-nio-9000-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+16:32:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:32:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:32:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+16:32:57 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 1492 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+16:32:57 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+16:32:57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:32:57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:32:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+16:32:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+16:32:59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:32:59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+16:33:00 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:33:00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2791 ms
+16:33:02 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7c5403a6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@206098b8, org.springframework.security.web.context.SecurityContextHolderFilter@5548b5ba, org.springframework.security.web.header.HeaderWriterFilter@1d71009e, org.springframework.security.web.authentication.logout.LogoutFilter@77ff98f6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@50b2c78, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6dd978c4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3765c605, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40a261d9, org.springframework.security.web.session.SessionManagementFilter@7a9752bf, org.springframework.security.web.access.ExceptionTranslationFilter@4b334bc5, org.springframework.security.web.access.intercept.AuthorizationFilter@9d8c2f8]
+16:33:03 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:33:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+16:33:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+16:33:03 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 6.637 seconds (process running for 7.365)
+16:33:16 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:33:16 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:33:16 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:33:16 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:33:16 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13dcf325
+16:33:16 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:33:16 [http-nio-9000-exec-2] INFO  c.m.c.controller.MovieController - Updating release date of movie with id: 1
+16:33:16 [http-nio-9000-exec-2] INFO  c.m.cinemate.service.MovieService - Updating release date of movie with id: 1
+16:33:16 [http-nio-9000-exec-2] INFO  c.m.cinemate.service.MovieService - Updated release date of movie: Tiger 3
+16:33:16 [http-nio-9000-exec-2] INFO  c.m.c.controller.MovieController - Updated release date of movie: Tiger 3
+16:33:19 [http-nio-9000-exec-3] INFO  c.m.c.controller.MovieController - Updating release date of movie with id: 1
+16:33:19 [http-nio-9000-exec-3] INFO  c.m.cinemate.service.MovieService - Updating release date of movie with id: 1
+16:33:19 [http-nio-9000-exec-3] INFO  c.m.cinemate.service.MovieService - Updated release date of movie: Tiger 3
+16:33:19 [http-nio-9000-exec-3] INFO  c.m.c.controller.MovieController - Updated release date of movie: Tiger 3
+16:33:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:33:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

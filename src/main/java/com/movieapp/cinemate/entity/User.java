@@ -41,6 +41,9 @@ public class User {
 	@Min(value = 18, message = "Minimum age is 18")
 	private Integer age;
 
+	@NotNull(message = "role is required")
+	private String role;
+
 //	@NotNull(message = "username is required")
 //	@Pattern(regexp = "^[a-zA-Z0-9_]+$", message = "username must be valid")
 //	private String username;

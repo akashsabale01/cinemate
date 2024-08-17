@@ -29,10 +29,10 @@ public class UserRepository {
 	}
 
 	public Boolean addUser(User user) throws Exception {
-		String sql = "INSERT INTO users(email, password, name, mobile_no, age) VALUES (?,?,?,?,?)";
+		String sql = "INSERT INTO users(email, password, name, mobile_no, age,role) VALUES (?,?,?,?,?,?)";
 
 		int result = jdbcTemplate.update(sql, new Object[] { user.getEmail(), user.getPassword(), user.getName(),
-				user.getMobileNo(), user.getAge() });
+				user.getMobileNo(), user.getAge(),user.getRole() });
 
 		return (result > 0) ? true : false;
 	}
