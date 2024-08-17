@@ -8,7 +8,7 @@ public class CinemateApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CinemateApplication.class, args);
-		// swagger url = http://localhost:9091/swagger-ui/index.html
+		// swagger url = http://localhost:9000/swagger-ui/index.html
 	}
 
 }

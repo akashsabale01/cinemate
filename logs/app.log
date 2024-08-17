@@ -203,3 +203,359 @@ Identify and stop the process that's listening on port 9091 or configure this ap
 10:58:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
 10:58:44 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 1.171 seconds (process running for 36.38)
 10:58:44 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:02:08 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+11:02:08 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 28996 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+11:02:08 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+11:02:08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:02:08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:02:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+11:02:13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+11:02:13 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:02:13 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+11:02:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:02:14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5238 ms
+11:02:17 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4110423d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55e5f53a, org.springframework.security.web.context.SecurityContextHolderFilter@1a326642, org.springframework.security.web.header.HeaderWriterFilter@465c2119, org.springframework.security.web.authentication.logout.LogoutFilter@2c88f7cd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@245606fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74eb4de3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@559e302b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73aec8a, org.springframework.security.web.access.ExceptionTranslationFilter@787baec4, org.springframework.security.web.access.intercept.AuthorizationFilter@29ac46e7]
+11:02:18 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+11:02:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+11:02:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+11:02:18 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 10.54 seconds (process running for 11.902)
+11:02:24 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+11:02:24 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 12580 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+11:02:24 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+11:02:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:02:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:02:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+11:02:28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+11:02:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:02:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+11:02:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:02:28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4063 ms
+11:02:32 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@64a11fbe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35ab5606, org.springframework.security.web.context.SecurityContextHolderFilter@37a04592, org.springframework.security.web.header.HeaderWriterFilter@2693fe7f, org.springframework.security.web.authentication.logout.LogoutFilter@4d35e207, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@252e9ea2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59b9b084, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2eec0c45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67f9b28a, org.springframework.security.web.access.ExceptionTranslationFilter@5ad6482e, org.springframework.security.web.access.intercept.AuthorizationFilter@422a0694]
+11:02:32 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+11:02:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+11:02:32 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+11:02:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9091"]
+11:02:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:02:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9091"]
+11:02:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9091"]
+11:02:32 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+11:02:32 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+11:03:18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+11:03:18 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 15436 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+11:03:18 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+11:03:19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:03:19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:03:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+11:03:22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+11:03:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:03:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+11:03:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:03:22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3928 ms
+11:03:25 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6a50a78c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e00997, org.springframework.security.web.context.SecurityContextHolderFilter@1b554668, org.springframework.security.web.header.HeaderWriterFilter@37a04592, org.springframework.security.web.authentication.logout.LogoutFilter@45f2433, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@64a11fbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69fa155a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c84daa5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6994742b, org.springframework.security.web.access.ExceptionTranslationFilter@3e4d3b47, org.springframework.security.web.access.intercept.AuthorizationFilter@22865344]
+11:03:26 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+11:03:26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+11:03:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+11:03:26 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 8.548 seconds (process running for 9.887)
+11:08:58 [http-nio-9000-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:08:58 [http-nio-9000-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:08:58 [http-nio-9000-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+11:09:06 [http-nio-9000-exec-3] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserController
+11:09:06 [http-nio-9000-exec-3] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieController
+11:09:06 [http-nio-9000-exec-3] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserRatingsAndReviewController
+11:09:06 [http-nio-9000-exec-3] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieWishlistController
+11:09:07 [http-nio-9000-exec-3] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 7774 ms
+11:11:15 [http-nio-9000-exec-6] INFO  c.m.c.controller.UserController - Fetching user with email: alice.brown@gmail.com
+11:11:15 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.UserService - Fetching user with email: alice.brown@gmail.com
+11:11:15 [http-nio-9000-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:11:16 [http-nio-9000-exec-6] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2709ff66
+11:11:16 [http-nio-9000-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:11:16 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.UserService - Retrieved user: Alice Brown
+11:11:16 [http-nio-9000-exec-6] INFO  c.m.c.controller.UserController - Retrieved user: Alice Brown
+11:17:23 [http-nio-9000-exec-2] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+11:17:23 [http-nio-9000-exec-2] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+11:17:23 [http-nio-9000-exec-2] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+11:17:23 [http-nio-9000-exec-2] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+12:04:32 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m15s636ms382µs900ns).
+12:11:31 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m58s591ms49µs200ns).
+13:56:13 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26m11s635ms50µs800ns).
+16:46:39 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h50m34s487ms407µs900ns).
+17:53:01 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m51s502ms3µs).
+18:49:35 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m32s413ms30µs800ns).
+18:52:51 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s341ms437µs100ns).
+12:09:43 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d17h5m27s774ms296µs600ns).
+12:14:17 [http-nio-9000-exec-3] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x030x010xd60x010x000x010xd20x030x03 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+12:14:17 [http-nio-9000-exec-5] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x020x010xd60x010x000x010xd20x030x02q)0x140xf00xd10xcb0x9a0xf70x01x80xab0x830xb3j0x1c0x97{0xd9 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+12:14:17 [http-nio-9000-exec-4] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x010xd60x010x000x010xd20x030x010x860xad0xee0xfcn0x970x9a0x03`4a0xdc\0x95|0xa5l0xd3(0xba0xaf0x0cX0xb40x000xc90xfbT0xf80xd40xa90xaf0x000x01|0x000x000x000x010x000x020x000x030x000x040x000x050x000x060x000x070x000x080x000x090x000x0a0x000x0b0x000x0c0x000x0d0x000x0e0x000x0f0x000x100x000x110x000x120x000x130x000x140x000x150x000x160x000x170x000x180x000x190x000x1a0x000x1b0x00/0x0000x0010x0020x0030x0040x0050x0060x0070x0080x0090x00:0x00;0x00<0x00=0x00>0x00?0x00@0x00A0x00B0x00C0x00D0x00E0x00F0x00g0x00h0x00i0x00j0x00k0x00l0x00m0x000x840x000x850x000x860x000x870x000x880x000x890x000x960x000x970x000x980x000x990x000x9a0x000x9b0x000x9c0x000x9d0x000x9e0x000x9f0x000xa00x000xa10x000xa20x000xa30x000xa40x000xa50x000xa60x000xa70x000xba0x000xbb0x000xbc0x000xbd0x000xbe0x000xbf0x000xc00x000xc10x000xc20x000xc30x000xc40x000xc50x130x010x130x020x130x030x130x040x130x050xc00x010xc00x020xc00x030xc00x040xc00x050xc00x060xc00x070xc00x080xc00x090xc00x0a0xc00x0b0xc00x0c0xc00x0d0xc00x0e0xc00x0f0xc00x100xc00x110xc00x120xc00x130xc00x140xc00x150xc00x160xc00x170xc00x180xc00x190xc0#0xc0$0xc0%0xc0&0xc0'0xc0(0xc0)0xc0*0xc0+0xc0,0xc0-0xc0.0xc0/0xc000xc010xc020xc0r0xc0s0xc0t0xc0u0xc0v0xc0w0xc0x0xc0y0xc0z0xc0{0xc0|0xc0}0xc0~0xc00x7f0xc00x800xc00x810xc00x820xc00x830xc00x840xc00x850xc00x860xc00x870xc00x880xc00x890xc00x8a0xc00x8b0xc00x8c0xc00x8d0xc00x8e0xc00x8f0xc00x900xc00x910xc00x920xc00x930xc00x940xc00x950xc00x960xc00x970xc00x980xc00x990xc00x9a0xc00x9b0xcc0xa80xcc0xa90xcc0xaa0xcc0xab0xcc0xac0xcc0xad0xcc0xae0x020x000x010x00,0x000x0a0x000x0a0x000x080x000x170x000x190x000x180x000x160x000x0b0x000x040x030x000x010x020x000x0d0x000x120x000x100x040x030x080x040x040x010x050x030x050x010x080x050x080x060x060x01...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+14:29:08 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m21s193ms443µs300ns).
+19:05:49 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h4m41s35ms552µs400ns).
+20:22:48 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m6s984ms595µs900ns).
+20:27:54 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:27:54 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:59:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+20:59:16 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 24840 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+20:59:16 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+20:59:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20:59:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20:59:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+20:59:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+20:59:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:59:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+20:59:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:59:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5409 ms
+20:59:25 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a61ab9d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2747f72e, org.springframework.security.web.context.SecurityContextHolderFilter@451da704, org.springframework.security.web.header.HeaderWriterFilter@68e2f8f4, org.springframework.security.web.authentication.logout.LogoutFilter@594f1098, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@717f8a9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53725565, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b12a633, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5be62a0d, org.springframework.security.web.access.ExceptionTranslationFilter@405a354, org.springframework.security.web.access.intercept.AuthorizationFilter@280f2fb6]
+20:59:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:59:26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+20:59:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+20:59:26 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 11.727 seconds (process running for 13.516)
+20:59:46 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:59:46 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:59:46 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:59:47 [http-nio-9000-exec-8] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserController
+20:59:47 [http-nio-9000-exec-8] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieController
+20:59:47 [http-nio-9000-exec-8] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserRatingsAndReviewController
+20:59:47 [http-nio-9000-exec-8] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieWishlistController
+20:59:47 [http-nio-9000-exec-8] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 800 ms
+21:00:09 [http-nio-9000-exec-9] INFO  c.m.c.controller.UserController - Fetching user with email: kundan22@gmail.com
+21:00:09 [http-nio-9000-exec-9] INFO  c.m.cinemate.service.UserService - Fetching user with email: kundan22@gmail.com
+21:00:09 [http-nio-9000-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:00:10 [http-nio-9000-exec-9] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@561e935d
+21:00:10 [http-nio-9000-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:00:10 [http-nio-9000-exec-9] INFO  c.m.cinemate.service.UserService - Retrieved user: Kundan Sharma
+21:00:10 [http-nio-9000-exec-9] INFO  c.m.c.controller.UserController - Retrieved user: Kundan Sharma
+21:01:06 [http-nio-9000-exec-4] ERROR c.m.c.exception.AllExeptionHandler - HttpMessageNotReadableException occurred: JSON parse error: Unrecognized token 'kundan22': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+21:01:06 [http-nio-9000-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'kundan22': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+21:01:19 [http-nio-9000-exec-10] ERROR c.m.c.exception.AllExeptionHandler - HttpMessageNotReadableException occurred: JSON parse error: Unrecognized token 'kundan22': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+21:01:19 [http-nio-9000-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'kundan22': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+21:01:20 [http-nio-9000-exec-7] ERROR c.m.c.exception.AllExeptionHandler - HttpMessageNotReadableException occurred: JSON parse error: Unrecognized token 'kundan22': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+21:01:20 [http-nio-9000-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'kundan22': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+21:01:33 [http-nio-9000-exec-6] INFO  c.m.c.controller.UserController - Logging in user with email: kundan22@gmail.com
+21:01:33 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.UserService - Logging in user with email: kundan22@gmail.com
+21:01:33 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.UserService - Fetching user with email: kundan22@gmail.com
+21:01:33 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.UserService - Retrieved user: Kundan Sharma
+21:01:33 [http-nio-9000-exec-6] WARN  c.m.cinemate.service.UserService - Invalid credentials for user: kundan22@gmail.com
+21:01:33 [http-nio-9000-exec-6] WARN  c.m.c.controller.UserController - Invalid credentials for user: kundan22@gmail.com
+21:07:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:07:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:08:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+21:08:21 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 10636 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+21:08:21 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+21:08:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:08:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21:08:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+21:08:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+21:08:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:08:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+21:08:24 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:08:24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3203 ms
+21:08:25 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4afcba87, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@201759c, org.springframework.security.web.context.SecurityContextHolderFilter@49711ee3, org.springframework.security.web.header.HeaderWriterFilter@7b1294a2, org.springframework.security.web.authentication.logout.LogoutFilter@4387c87b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2eeccb37, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14663e47, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53ddadec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64291f77, org.springframework.security.web.session.SessionManagementFilter@17faa093, org.springframework.security.web.access.ExceptionTranslationFilter@679be94f, org.springframework.security.web.access.intercept.AuthorizationFilter@7c1f0fa4]
+21:08:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:08:28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+21:08:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+21:08:28 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 7.484 seconds (process running for 8.701)
+21:08:29 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:08:29 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:08:29 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+21:09:52 [http-nio-9000-exec-6] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserController
+21:09:52 [http-nio-9000-exec-6] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieController
+21:09:52 [http-nio-9000-exec-6] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserRatingsAndReviewController
+21:09:52 [http-nio-9000-exec-6] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieWishlistController
+21:09:52 [http-nio-9000-exec-6] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1106 ms
+21:10:11 [http-nio-9000-exec-7] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+21:10:11 [http-nio-9000-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+21:10:18 [http-nio-9000-exec-9] ERROR c.m.c.exception.AllExeptionHandler - Exception occurred: Access Denied
+21:10:18 [http-nio-9000-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+21:27:22 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+21:27:23 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 22416 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+21:27:23 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+21:27:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:27:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21:27:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+21:27:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+21:27:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:27:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+21:27:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:27:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7104 ms
+21:27:33 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5690ebf8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ae70674, org.springframework.security.web.context.SecurityContextHolderFilter@7c9a9c1e, org.springframework.security.web.header.HeaderWriterFilter@79853988, org.springframework.security.web.authentication.logout.LogoutFilter@1cd72de2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6938bc72, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e99fdd7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@88ff57e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@310c236, org.springframework.security.web.session.SessionManagementFilter@46325414, org.springframework.security.web.access.ExceptionTranslationFilter@6bfaa037, org.springframework.security.web.access.intercept.AuthorizationFilter@1ea85ad8]
+21:27:36 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:27:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+21:27:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+21:27:36 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 14.736 seconds (process running for 17.074)
+21:27:41 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:27:41 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:27:41 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+21:27:43 [http-nio-9000-exec-9] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserController
+21:27:44 [http-nio-9000-exec-9] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieController
+21:27:44 [http-nio-9000-exec-9] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserRatingsAndReviewController
+21:27:44 [http-nio-9000-exec-9] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieWishlistController
+21:27:44 [http-nio-9000-exec-9] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1449 ms
+21:30:30 [http-nio-9000-exec-10] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+21:30:30 [http-nio-9000-exec-10] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+21:30:30 [http-nio-9000-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:30:32 [http-nio-9000-exec-10] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bd25ce7
+21:30:32 [http-nio-9000-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:30:32 [http-nio-9000-exec-10] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+21:30:32 [http-nio-9000-exec-10] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+21:30:45 [http-nio-9000-exec-5] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+21:30:45 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+21:30:45 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+21:30:45 [http-nio-9000-exec-5] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+21:46:35 [http-nio-9000-exec-2] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+21:46:35 [http-nio-9000-exec-2] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+21:46:35 [http-nio-9000-exec-2] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+21:46:35 [http-nio-9000-exec-2] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+21:47:38 [http-nio-9000-exec-9] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+21:47:38 [http-nio-9000-exec-9] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+21:47:38 [http-nio-9000-exec-9] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+21:47:38 [http-nio-9000-exec-9] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+21:48:06 [http-nio-9000-exec-5] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+21:48:06 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+21:48:06 [http-nio-9000-exec-5] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+21:48:06 [http-nio-9000-exec-5] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+21:52:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:52:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:26:55 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+13:26:56 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 10332 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+13:26:56 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+13:26:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:26:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:27:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+13:27:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+13:27:03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:27:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+13:27:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:27:04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7726 ms
+13:27:04 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'movieWishlistController': Unsatisfied dependency expressed through field 'movieWishlistService': Error creating bean with name 'movieWishlistService': Unsatisfied dependency expressed through field 'movieWishlistRepository': Error creating bean with name 'movieWishlistRepository': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'passwordEncoder': No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+13:27:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:27:05 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+13:27:05 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field passwordEncoder in com.movieapp.cinemate.service.UserService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+13:28:46 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+13:28:46 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 16820 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+13:28:46 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+13:28:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:28:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:28:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+13:28:53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+13:28:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:28:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+13:28:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:28:53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7306 ms
+13:28:56 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f183c88, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ee9a76b, org.springframework.security.web.context.SecurityContextHolderFilter@2d8dd96e, org.springframework.security.web.header.HeaderWriterFilter@b8aa601, org.springframework.security.web.authentication.logout.LogoutFilter@64b081a1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@24b2ae5e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f334e13, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78c50774, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39aa441, org.springframework.security.web.session.SessionManagementFilter@2313bec1, org.springframework.security.web.access.ExceptionTranslationFilter@2bf9bd9b, org.springframework.security.web.access.intercept.AuthorizationFilter@1c848169]
+13:29:00 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:29:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+13:29:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+13:29:00 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 15.799 seconds (process running for 18.537)
+13:29:22 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+13:29:22 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 4696 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+13:29:22 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+13:29:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:29:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:29:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+13:29:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+13:29:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:29:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+13:29:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:29:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7394 ms
+13:29:32 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26a79f4c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f9b99f1, org.springframework.security.web.context.SecurityContextHolderFilter@58e20441, org.springframework.security.web.header.HeaderWriterFilter@481bc060, org.springframework.security.web.authentication.logout.LogoutFilter@5dbba825, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@439b47de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ba1c615, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@646c366e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a77d5c5, org.springframework.security.web.session.SessionManagementFilter@60d6a2e1, org.springframework.security.web.access.ExceptionTranslationFilter@416a6ca9, org.springframework.security.web.access.intercept.AuthorizationFilter@3198ad89]
+13:29:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:29:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+13:29:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+13:29:37 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 16.17 seconds (process running for 18.995)
+13:29:53 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:29:53 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:29:53 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+13:29:54 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:29:55 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bb37c9b
+13:29:55 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:30:16 [http-nio-9000-exec-4] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+13:30:16 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+13:30:16 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+13:30:16 [http-nio-9000-exec-4] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+13:32:14 [http-nio-9000-exec-8] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserController
+13:32:14 [http-nio-9000-exec-8] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieController
+13:32:15 [http-nio-9000-exec-8] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.UserRatingsAndReviewController
+13:32:15 [http-nio-9000-exec-8] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.movieapp.cinemate.controller.MovieWishlistController
+13:32:15 [http-nio-9000-exec-8] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 962 ms
+13:35:36 [http-nio-9000-exec-7] INFO  c.m.c.controller.UserController - Logging in user with email: Jerry33@yahoo.com
+13:35:36 [http-nio-9000-exec-7] INFO  c.m.cinemate.service.UserService - Logging in user with email: Jerry33@yahoo.com
+13:35:36 [http-nio-9000-exec-7] INFO  c.m.cinemate.service.UserService - Fetching user with email: Jerry33@yahoo.com
+13:35:36 [http-nio-9000-exec-7] INFO  c.m.cinemate.service.UserService - Retrieved user: Jerry Roy
+13:35:36 [http-nio-9000-exec-7] INFO  c.m.cinemate.service.UserService - User logged in successfully: Jerry33@yahoo.com
+13:35:36 [http-nio-9000-exec-7] INFO  c.m.c.controller.UserController - User logged in successfully: Jerry33@yahoo.com
+13:35:43 [http-nio-9000-exec-8] INFO  c.m.c.controller.UserController - Logging in user with email: Jerry33@yahoo.com
+13:35:43 [http-nio-9000-exec-8] INFO  c.m.cinemate.service.UserService - Logging in user with email: Jerry33@yahoo.com
+13:35:43 [http-nio-9000-exec-8] INFO  c.m.cinemate.service.UserService - Fetching user with email: Jerry33@yahoo.com
+13:35:43 [http-nio-9000-exec-8] INFO  c.m.cinemate.service.UserService - Retrieved user: Jerry Roy
+13:35:43 [http-nio-9000-exec-8] WARN  c.m.cinemate.service.UserService - Invalid credentials for user: Jerry33@yahoo.com
+13:35:43 [http-nio-9000-exec-8] WARN  c.m.c.controller.UserController - Invalid credentials for user: Jerry33@yahoo.com
+13:38:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:38:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
