@@ -44,39 +44,6 @@ public class UserController {
 		return new ResponseEntity<UserInfo>(userInfo, HttpStatus.OK);
 	}
 
-	@PostMapping(value = "login")
-	public ResponseEntity<ApiResponse> getUserByEmailAndPassword(@RequestBody @Valid UserLoginInfo user)
-			throws UserException {
-	
-		log.info("Logging in user with email: {}", user.getEmail());
-		Boolean isValidUser = userService.userLogin(user);
-
-		ApiResponse response = null;
-
-		if (isValidUser == false) {
-			log.warn("Invalid credentials for user: {}", user.getEmail());
-			response = new ApiResponse("User not Logged In, Invalid credentials", 401);
-			return new ResponseEntity<ApiResponse>(response, HttpStatus.UNAUTHORIZED);
-		}
-
-		log.info("User logged in successfully: {}", user.getEmail());
-		response = new ApiResponse("User Logged In successfully", 200);
-
-		return new ResponseEntity<ApiResponse>(response, HttpStatus.OK);
-	}
-
-	@PostMapping(value = "register")
-	public ResponseEntity<ApiResponse> addUser(@RequestBody @Valid User user) throws UserException {
-		
-		log.info("Registering user with email: {}", user.getEmail());
-		userService.addUser(user);
-		log.info("User registered successfully: {}", user.getEmail());
-
-		ApiResponse response = new ApiResponse("User added successfully in database", 201);
-
-		return new ResponseEntity<ApiResponse>(response, HttpStatus.CREATED);
-	}
-
 	@PutMapping(value = "update-user-details/{email}")
 	public ResponseEntity<UserInfo> updateUserDetails(@PathVariable String email,
 			@RequestBody @Valid UpdateUserPojo user) throws UserException {
@@ -113,7 +80,7 @@ public class UserController {
 
 		return new ResponseEntity<ApiResponse>(response, HttpStatus.OK);
 	}
-	
+
 	private UserInfo convertUserToUserInfoClass(User user) {
 		
 		UserInfo userInfo = new UserInfo();

@@ -68,7 +68,7 @@ public class MovieController {
 	}
 
 	@PostMapping(value = "admin/movies")
-	@PreAuthorize("hasAuthority('ADMIN')")
+//	@PreAuthorize("hasAuthority('ADMIN')")
 	public ResponseEntity<ApiResponse> addMovie(@RequestBody @Valid MoviePojo movie) throws MovieException {
 		
 		log.info("Adding movie: {}", movie.getTitle());
@@ -81,7 +81,7 @@ public class MovieController {
 	}
 
 	@PatchMapping(value = "admin/movies/{id}/{releasedate}")
-	@PreAuthorize("hasAuthority('ADMIN')")
+//	@PreAuthorize("hasAuthority('ADMIN')")
 	public ResponseEntity<Movie> updateReleaseDateOfMovieById(@PathVariable Integer id,
 			@PathVariable LocalDate releasedate) throws MovieException {
 		
@@ -93,7 +93,7 @@ public class MovieController {
 	}
 
 	@PutMapping(value = "admin/movies/{id}")
-	@PreAuthorize("hasAuthority('ADMIN')")
+//	@PreAuthorize("hasAuthority('ADMIN')")
 	public ResponseEntity<Movie> updateMovieDetailsById(@PathVariable Integer id, @RequestBody @Valid MoviePojo movie)
 			throws MovieException {
 		
@@ -105,7 +105,7 @@ public class MovieController {
 	}
 
 	@DeleteMapping(value = "admin/movies/{id}")
-	@PreAuthorize("hasAuthority('ADMIN')")
+//	@PreAuthorize("hasAuthority('ADMIN')")
 	public ResponseEntity<ApiResponse> removeMovieById(@PathVariable Integer id) throws MovieException {
 		
 		log.info("Removing movie with id: {}", id);
