@@ -36,6 +36,10 @@ public class AllExeptionHandler {
 			ApiResponse response = new ApiResponse(ex.getMessage(), 400);
 			return new ResponseEntity<ApiResponse>(response, HttpStatus.BAD_REQUEST);
 		}
+		if(ex.getMessage().contains("Bad credentials")){
+			ApiResponse response = new ApiResponse("User not Logged In, Invalid credentials", 400);
+			return new ResponseEntity<ApiResponse>(response, HttpStatus.BAD_REQUEST);
+		}
 		ApiResponse response = new ApiResponse(ex.getMessage(), 404);
 		return new ResponseEntity<ApiResponse>(response, HttpStatus.NOT_FOUND);
 	}

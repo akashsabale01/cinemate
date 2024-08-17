@@ -3,9 +3,11 @@ package com.movieapp.cinemate.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -52,15 +54,6 @@ public class SecurityConfig {
 				.httpBasic(Customizer.withDefaults())
 				.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 				.build();
-
-//		return http.csrf().disable()// .cors().disable()
-//				.authorizeHttpRequests()
-//				.requestMatchers("/api/v1/user*/**", "/swagger-ui.html", "/v3/api-docs/**", "/swagger-ui.html",
-//						"/swagger-ui/**")
-//				.permitAll().and().authorizeHttpRequests().requestMatchers("/api/v1/admin*/**").authenticated()
-//				.and().httpBasic()
-//				// .and().formLogin()
-//				.and().build();
 	}
 
 	@Bean
@@ -69,6 +62,11 @@ public class SecurityConfig {
 		provider.setPasswordEncoder( new BCryptPasswordEncoder());
 		provider.setUserDetailsService(userDetailsService);
 		return provider;
+	}
+
+	@Bean
+	public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {
+		return configuration.getAuthenticationManager();
 	}
 
 	// Password Encoding

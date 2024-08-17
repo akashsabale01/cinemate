@@ -26,7 +26,7 @@ public class AuthController {
             throws UserException {
 
         log.info("Logging in user with email: {}", user.getEmail());
-        Boolean isValidUser = userService.userLogin(user);
+        Boolean isValidUser = userService.verify(user);
 
         ApiResponse response = null;
 

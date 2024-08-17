@@ -2,6 +2,9 @@ package com.movieapp.cinemate.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -21,6 +24,9 @@ public class UserService {
 	UserRepository userRepository;
 
 	@Autowired
+	AuthenticationManager authenticationManager;
+
+	@Autowired
 	private PasswordEncoder passwordEncoder;
 
 	public User getUserByEmail(String email) throws UserException {
@@ -35,6 +41,18 @@ public class UserService {
 			throw new UserException("User of given email not found");
 		}
 	}
+
+	public Boolean verify(UserLoginInfo user) throws UserException {
+        Authentication authentication;
+        try {
+            authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getEmail(), user.getPassword()));
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            throw new UserException(e);
+        }
+
+        return authentication.isAuthenticated();
+    }
 
 	public Boolean userLogin(UserLoginInfo user) throws UserException {
 		log.info("Logging in user with email: {}", user.getEmail());
@@ -121,4 +139,6 @@ public class UserService {
 
 		log.info("User deleted: {}", email);
 	}
+
+
 }
