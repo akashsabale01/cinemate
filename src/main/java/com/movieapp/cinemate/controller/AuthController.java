@@ -4,6 +4,7 @@ import com.movieapp.cinemate.entity.User;
 import com.movieapp.cinemate.exception.UserException;
 import com.movieapp.cinemate.pojo.ApiResponse;
 import com.movieapp.cinemate.pojo.UserLoginInfo;
+import com.movieapp.cinemate.service.JWTService;
 import com.movieapp.cinemate.service.UserService;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
@@ -21,25 +22,30 @@ public class AuthController {
     @Autowired
     UserService userService;
 
+    @Autowired
+    JWTService jwtService;
+
     @PostMapping(value = "/login")
-    public ResponseEntity<ApiResponse> getUserByEmailAndPassword(@RequestBody @Valid UserLoginInfo user)
+    public ResponseEntity<String> getUserByEmailAndPassword(@RequestBody @Valid UserLoginInfo user)
             throws UserException {
 
-        log.info("Logging in user with email: {}", user.getEmail());
-        Boolean isValidUser = userService.verify(user);
+        return new ResponseEntity<>(userService.verify(user), HttpStatus.OK);
 
-        ApiResponse response = null;
-
-        if (!isValidUser) {
-            log.warn("Invalid credentials for user: {}", user.getEmail());
-            response = new ApiResponse("User not Logged In, Invalid credentials", 401);
-            return new ResponseEntity<ApiResponse>(response, HttpStatus.UNAUTHORIZED);
-        }
-
-        log.info("User logged in successfully: {}", user.getEmail());
-        response = new ApiResponse("User Logged In successfully", 200);
-
-        return new ResponseEntity<ApiResponse>(response, HttpStatus.OK);
+//        log.info("Logging in user with email: {}", user.getEmail());
+//        Boolean isValidUser = userService.verify(user);
+//
+//        ApiResponse response = null;
+//
+//        if (!isValidUser) {
+//            log.warn("Invalid credentials for user: {}", user.getEmail());
+//            response = new ApiResponse("User not Logged In, Invalid credentials", 401);
+//            return new ResponseEntity<ApiResponse>(response, HttpStatus.UNAUTHORIZED);
+//        }
+//
+//        log.info("User logged in successfully: {}", user.getEmail());
+//        response = new ApiResponse("User Logged In successfully", 200);
+//
+//        return new ResponseEntity<ApiResponse>(response, HttpStatus.OK);
     }
 
 

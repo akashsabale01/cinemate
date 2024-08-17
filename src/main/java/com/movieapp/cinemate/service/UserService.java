@@ -29,6 +29,9 @@ public class UserService {
 	@Autowired
 	private PasswordEncoder passwordEncoder;
 
+	@Autowired
+	private JWTService jwtService;
+
 	public User getUserByEmail(String email) throws UserException {
 		log.info("Fetching user with email: {}", email);
 		try {
@@ -42,16 +45,21 @@ public class UserService {
 		}
 	}
 
-	public Boolean verify(UserLoginInfo user) throws UserException {
+	public String verify(UserLoginInfo user) throws UserException {
         Authentication authentication;
         try {
             authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getEmail(), user.getPassword()));
+
+			if(authentication.isAuthenticated()){
+				return jwtService.generateToken(user.getEmail());
+			}
+
+			return "Login Failed!";
+
         } catch (Exception e) {
             System.out.println(e.getMessage());
             throw new UserException(e);
         }
-
-        return authentication.isAuthenticated();
     }
 
 	public Boolean userLogin(UserLoginInfo user) throws UserException {

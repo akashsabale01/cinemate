@@ -1005,3 +1005,155 @@ Consider defining a bean of type 'org.springframework.security.crypto.password.P
 17:53:36 [http-nio-9000-exec-4] INFO  c.m.c.controller.AuthController - User logged in successfully: kang@gmail.com
 17:55:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 17:55:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:10:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+18:10:40 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 27004 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+18:10:40 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+18:10:40 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:10:40 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:10:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+18:10:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+18:10:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:10:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+18:10:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:10:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3285 ms
+18:10:46 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@61f50169, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e57efbc, org.springframework.security.web.context.SecurityContextHolderFilter@4d35e207, org.springframework.security.web.header.HeaderWriterFilter@197abfcf, org.springframework.security.web.authentication.logout.LogoutFilter@2a7a4dfc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@15e55f14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@714fed03, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6618cb65, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@597dbfdb, org.springframework.security.web.session.SessionManagementFilter@2c2148a8, org.springframework.security.web.access.ExceptionTranslationFilter@1eb54abe, org.springframework.security.web.access.intercept.AuthorizationFilter@2f5d13d0]
+18:10:47 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18:10:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+18:10:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+18:10:47 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 7.561 seconds (process running for 8.704)
+18:11:10 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:11:10 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:11:10 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+18:11:10 [http-nio-9000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:11:11 [http-nio-9000-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@678982b
+18:11:11 [http-nio-9000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:11:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:11:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:12:06 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+18:12:06 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 17444 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+18:12:06 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+18:12:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:12:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:12:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+18:12:09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+18:12:09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:12:09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+18:12:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:12:09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3591 ms
+18:12:12 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@56909e88, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f5d13d0, org.springframework.security.web.context.SecurityContextHolderFilter@3d6f681, org.springframework.security.web.header.HeaderWriterFilter@69fa155a, org.springframework.security.web.authentication.logout.LogoutFilter@52e9c2cb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@12ed7b39, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13d1c3b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dac209f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43b8f677, org.springframework.security.web.session.SessionManagementFilter@4aaafa87, org.springframework.security.web.access.ExceptionTranslationFilter@1b554668, org.springframework.security.web.access.intercept.AuthorizationFilter@252e9ea2]
+18:12:13 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18:12:13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+18:12:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+18:12:13 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 7.781 seconds (process running for 9.054)
+18:12:18 [http-nio-9000-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:12:18 [http-nio-9000-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:12:18 [http-nio-9000-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+18:12:19 [http-nio-9000-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:12:19 [http-nio-9000-exec-5] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1018d0c8
+18:12:19 [http-nio-9000-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:35:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:35:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:35:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+18:35:14 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 3484 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+18:35:14 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+18:35:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:35:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:35:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+18:35:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+18:35:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:35:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+18:35:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:35:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3385 ms
+18:35:20 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a117b2f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9e386fd, org.springframework.security.web.context.SecurityContextHolderFilter@1723cb4f, org.springframework.security.web.header.HeaderWriterFilter@73f12c83, org.springframework.security.web.authentication.logout.LogoutFilter@64a11fbe, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@45efbf3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78e2ccc1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5fdc1cc6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a062e65, org.springframework.security.web.session.SessionManagementFilter@4861e027, org.springframework.security.web.access.ExceptionTranslationFilter@44bc68d4, org.springframework.security.web.access.intercept.AuthorizationFilter@2cd05540]
+18:35:20 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18:35:20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+18:35:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+18:35:20 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 7.08 seconds (process running for 8.216)
+18:35:31 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:35:31 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:35:31 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+18:35:31 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:35:32 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@616aa246
+18:35:32 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:37:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:37:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:37:50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+18:37:50 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 24448 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+18:37:50 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+18:37:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:37:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:37:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+18:37:53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+18:37:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:37:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+18:37:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:37:53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3187 ms
+18:37:55 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e57efbc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@597dbfdb, org.springframework.security.web.context.SecurityContextHolderFilter@6bf79701, org.springframework.security.web.header.HeaderWriterFilter@2dac209f, org.springframework.security.web.authentication.logout.LogoutFilter@608551b4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5edb3ecb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45f2433, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31800738, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48548024, org.springframework.security.web.session.SessionManagementFilter@42cb1d29, org.springframework.security.web.access.ExceptionTranslationFilter@13d1c3b8, org.springframework.security.web.access.intercept.AuthorizationFilter@43b8f677]
+18:37:56 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18:37:56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+18:37:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+18:37:56 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 6.729 seconds (process running for 7.866)
+18:38:04 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:38:04 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:38:04 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+18:38:04 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:38:04 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b0b773b
+18:38:04 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:21:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:21:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:21:25 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+19:21:25 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 9488 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+19:21:25 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+19:21:25 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19:21:25 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19:21:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+19:21:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+19:21:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:21:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+19:21:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:21:32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6352 ms
+19:21:36 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@14ab31a1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@390950cb, org.springframework.security.web.context.SecurityContextHolderFilter@46207a3b, org.springframework.security.web.header.HeaderWriterFilter@1358fe8e, org.springframework.security.web.authentication.logout.LogoutFilter@75e8727e, com.movieapp.cinemate.filter.JWTFilter@58318c0f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@72abf493, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1af9f0ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7334d18d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@456b1d64, org.springframework.security.web.session.SessionManagementFilter@49c8a31e, org.springframework.security.web.access.ExceptionTranslationFilter@7ef8e1e1, org.springframework.security.web.access.intercept.AuthorizationFilter@c6690a3]
+19:21:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+19:21:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+19:21:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+19:21:37 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 13.677 seconds (process running for 15.882)
+19:22:10 [http-nio-9000-exec-9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:22:10 [http-nio-9000-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:22:10 [http-nio-9000-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+19:22:11 [http-nio-9000-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:22:12 [http-nio-9000-exec-9] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b0fd8a6
+19:22:12 [http-nio-9000-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:23:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:23:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:24:28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+19:24:28 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Starting CinemateApplication using Java 17.0.2 with PID 10444 (C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate\target\classes started by 2303625 in C:\Users\2303625\OneDrive - Cognizant\Desktop\Coding\Spring Boot Backend\Spring Security\Cinemate with jwt\cinemate)
+19:24:28 [restartedMain] INFO  c.m.cinemate.CinemateApplication - No active profile set, falling back to 1 default profile: "default"
+19:24:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19:24:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19:24:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+19:24:33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+19:24:33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:24:33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+19:24:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:24:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5821 ms
+19:24:39 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4767dea, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@119c6cb8, org.springframework.security.web.context.SecurityContextHolderFilter@4b9476f3, org.springframework.security.web.header.HeaderWriterFilter@49c8a31e, org.springframework.security.web.authentication.logout.LogoutFilter@206dfe95, com.movieapp.cinemate.filter.JWTFilter@58084386, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@460a6ea2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4613aef7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33016171, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fa3aa4f, org.springframework.security.web.session.SessionManagementFilter@70b526f6, org.springframework.security.web.access.ExceptionTranslationFilter@70e92d03, org.springframework.security.web.access.intercept.AuthorizationFilter@5a09ca04]
+19:24:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+19:24:40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+19:24:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+19:24:40 [restartedMain] INFO  c.m.cinemate.CinemateApplication - Started CinemateApplication in 13.262 seconds (process running for 15.232)
+19:25:16 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:25:16 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:25:16 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+19:25:17 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:25:18 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e4744b4
+19:25:18 [http-nio-9000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:25:39 [http-nio-9000-exec-4] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+19:25:39 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+19:25:39 [http-nio-9000-exec-4] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+19:25:39 [http-nio-9000-exec-4] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+19:25:53 [http-nio-9000-exec-6] INFO  c.m.c.controller.MovieController - Getting all movies of type: null
+19:25:53 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.MovieService - Fetching all movies of type: null
+19:25:53 [http-nio-9000-exec-6] INFO  c.m.cinemate.service.MovieService - Retrieved 19 movies of type: null
+19:25:53 [http-nio-9000-exec-6] INFO  c.m.c.controller.MovieController - Retrieved 19 movies
+19:26:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:26:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
